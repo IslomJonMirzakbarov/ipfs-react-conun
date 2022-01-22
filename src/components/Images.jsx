@@ -29,7 +29,14 @@ const Images = () => {
           />
         ))
       ) : (
-        <div style={{ display: "flex", justifyContent: 'center', alignItems: 'center', width: '100%' }}>
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            width: "100%",
+          }}
+        >
           <h2>First choose image file and submit.</h2>
         </div>
       )}
